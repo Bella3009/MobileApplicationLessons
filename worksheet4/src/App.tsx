@@ -4,6 +4,7 @@ import { IonReactRouter } from "@ionic/react-router";
 import Home from "./pages/Home";
 import Worksheet4a from "./pages/Worksheet4a";
 import Worksheet4b from "./pages/Worksheet4b";
+import Worksheet4c from "./pages/Worksheet4c";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -49,6 +50,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/4b">
           <Worksheet4b />
+        </Route>
+        <Route exact path="/4c">
+          <Worksheet4c />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />

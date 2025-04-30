@@ -9,11 +9,12 @@ import {
   IonButton,
   IonItem,
   IonLabel,
+  IonList,
   IonText,
   IonToast,
 } from "@ionic/react";
 
-const Worksheet4a: React.FC = () => {
+const Worksheet4b: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -29,42 +30,44 @@ const Worksheet4a: React.FC = () => {
           This toast example uses triggers to automatically open a toast when
           the button is clicked.
         </IonText>
-        <IonItem>
-          <IonLabel>Followers</IonLabel>
-          <IonBadge slot="end" color="primary">
-            22K
-          </IonBadge>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Likes</IonLabel>
-          <IonBadge slot="end" style={{ backgroundColor: "#50c8ff" }}>
-            118K
-          </IonBadge>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Stars</IonLabel>
-          <IonBadge slot="end" color="tertiary">
-            34K
-          </IonBadge>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Completed</IonLabel>
-          <IonBadge slot="end" color="success">
-            80
-          </IonBadge>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Warnings</IonLabel>
-          <IonBadge slot="end" color="warning">
-            70
-          </IonBadge>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Notifications</IonLabel>
-          <IonBadge slot="end" color="danger">
-            1000
-          </IonBadge>
-        </IonItem>
+        <IonList>
+          <IonItem>
+            <IonLabel>Followers</IonLabel>
+            <IonBadge slot="end" color="primary">
+              22K
+            </IonBadge>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Likes</IonLabel>
+            <IonBadge slot="end" style={{ backgroundColor: "#50c8ff" }}>
+              118K
+            </IonBadge>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Stars</IonLabel>
+            <IonBadge slot="end" color="tertiary">
+              34K
+            </IonBadge>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Completed</IonLabel>
+            <IonBadge slot="end" color="success">
+              80
+            </IonBadge>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Warnings</IonLabel>
+            <IonBadge slot="end" color="warning">
+              70
+            </IonBadge>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Notifications</IonLabel>
+            <IonBadge slot="end" color="danger">
+              1000
+            </IonBadge>
+          </IonItem>
+        </IonList>
         <IonToast
           trigger="openToast"
           message="This toast will disappear after 5 seconds"
@@ -75,4 +78,4 @@ const Worksheet4a: React.FC = () => {
   );
 };
 
-export default Worksheet4a;
+export default Worksheet4b;
