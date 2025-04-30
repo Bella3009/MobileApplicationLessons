@@ -6,7 +6,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-const Home: React.FC = () => {
+const Library: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -15,10 +15,10 @@ const Home: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        <p>Home content</p>
+        <p>Library content</p>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Library;
