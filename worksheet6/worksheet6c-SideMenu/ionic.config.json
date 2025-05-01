@@ -1,0 +1,7 @@
+{
+  "name": "worksheet6c-SideMenu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
