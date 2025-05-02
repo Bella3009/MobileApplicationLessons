@@ -1,0 +1,7 @@
+{
+  "name": "worksheet6d",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
